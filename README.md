@@ -77,11 +77,3 @@ Data      GCP · BigQuery · Looker Studio · Jupyter
 ```
 
 ---
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ananya-ravi-3021&show_icons=true&hide_border=true&theme=default" height="150" />
-</p>
-
-<p align="center">
-  <sub>If you also think about allergen labels more than the average person, say hi 🌰</sub>
-</p>
