@@ -51,19 +51,19 @@ Interested in the unglamorous half of ML: what models do when the data shifts un
 
 ### 🍜 My Two Undergrad Projects (Both, Somehow, About Food)
 
-#### 🥄 Fixipe — *The Practical One*
+#### 🥄 Fixipe 
 > **iOS recipe adapter** · Swift · Vision Framework · Python + Firebase · NUS Orbital, 2021
 
-Point your camera at a recipe. Fixipe reads it with on-device OCR, checks the ingredient list against your allergies and dietary restrictions, and suggests swaps for anything you can't eat. No more squinting at a cookbook doing mental substitutions.
+Point your camera at a recipe. Fixipe reads it with on-device OCR, checks the ingredient list against your allergies and dietary restrictions, and suggests swaps for anything you can't eat. 
 
-#### 🧪 [Cross-Modal Image-Recipe Retrieval](https://github.com/ananya-ravi-3021/cross-modal-image-recipe-retrieval) — *The Stubborn One*
+#### 🧪 [Cross-Modal Image-Recipe Retrieval](https://github.com/ananya-ravi-3021/cross-modal-image-recipe-retrieval)
 > **Final year thesis** · PyTorch · multi-label classification · NUS School of Computing, 2023/24
 
 Fixipe needed a recipe. What if you only have the plate? This one predicts **10 allergen labels straight from a food photo**, with the ground truth derived from recipe ingredients (that's the cross-modal part).
 
-Tried a ResNet baseline, class-specific residual attention, and a graph convolutional network over a label co-occurrence graph, plus asymmetric losses to fight a brutally imbalanced label set.
+Tried a ResNet baseline, class-specific residual attention, and a graph convolutional network over a label co-occurrence graph, plus asymmetric losses to handle an imbalanced label set.
 
-Best result: **60.9% mAP**. The most useful finding was a negative one, though. The fancy architectures lost to the simple one, because ingredients in a cooked dish are mixed in rather than sitting in tidy regions of the image, so per-region attention had nothing to attend to. Fixing the class balance mattered far more than any model I tried. 🤷‍♀️
+Best result: **60.9% mAP**. The most useful finding was a negative one, though. The fancy architectures lost to the simple one, because ingredients in a cooked dish are mixed in rather than sitting in tidy regions of the image, so per-region attention had nothing to attend to. Fixing the class balance mattered far more than any model I tried.
 
 ---
 
